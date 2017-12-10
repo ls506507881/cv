@@ -240,31 +240,63 @@
             font-weight: bold;
             line-height: 2;
         }
-        .about-me{
+        section{
+            display: none;
+        }
+        /* .about-me{
             display: none;
         }
         .portfolio{
             display: none;
-        }
+        }*/
         .skills{
-            display: none;
+            /* background: url(./image/skill-bg.jpg) no-repeat; */
+            background-size: cover;
+
         }
-        .contact{
+        /* .contact{
             display: none;
             height: 100%;
-        }
+        }  */
         .active{
             display: block;
         }
+        /* portfolio */
+        
+        
         .portfolio>h1{
             font-size: 38px;
             display: block;
             text-align: center;
             font-weight: 600;
             margin-top: 20px;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
         }
-
+        .portfolio>.portfolio-list li{
+            margin-bottom: 40px;
+            padding: 20px;
+            max-width: 760px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 3px 3px 25px rgba(0, 0, 0, .3);
+        }
+        .portfolio>.portfolio-list li::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .portfolio>.portfolio-list li>img{
+            
+            width: 250px;
+            height: 300px;
+            display: inline-block;
+            float: left;
+            margin-right: 30px;
+            box-shadow: 3px 3px 20px rgba(0, 0, 0, .1);
+        }
+        .portfolio>.portfolio-list li>.por-info{
+            padding-top: 20px;
+        }
         /* skills */
         .skills>h1{
             font-size: 38px;
@@ -279,12 +311,16 @@
             max-width: 960px;
             margin: 0 auto;
             justify-content: space-between;
-            background: red;
+            background: rgba(255, 255, 255, .5);
             margin-bottom: 50px;
+            box-shadow: 3px 3px 20px rgba(0, 0, 0, .1);
         }
         .skills>.skills-content>.skills-content-info{
             margin: 20px 40px 20px 20px;
             max-width: 380px;
+        }
+        .skills>.skills-content>.skills-content-info>li{
+            margin-bottom: 20px;
         }
         .skills>.skill-lists{
             display: flex;
@@ -303,6 +339,8 @@
         }
         /* --- */
 
+        
+        
         .contact>h1{
             font-size: 38px;
             display: block;
@@ -344,7 +382,8 @@
         }
         /* 个人 */
         .main-info-content{
-            margin-bottom: 40px;
+            max-width: 800px;
+            margin: 0 auto 30px;
         }
         .main-info-content>p{
             line-height: 1.6em;
@@ -352,9 +391,9 @@
         }
         .main-info-content>h3{
             color: #333;
-            font-size: 24px;
+            font-size: 22px;
             line-height: 30px;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
         }
         .main-info-content strong{
             color: red;
@@ -433,10 +472,10 @@
                 </div>
                 <div class="main-info-content why-me">
                     <h3>这样的我</h3>
-                    <p>轻微强迫症、工作认真的人。</p>
-                    <p>不设边界，碰到新的知识，都愿意去尝试。</p>
+                    <p>轻微强迫症、工作认真,会认真对待每一个项目，不敷衍了事。</p>
+                    <p>不设边界，碰到新的知识，都愿意去尝试，想成为一个包括但不仅限于前端的程序猿。</p>
                     <p>有时间概念，能在约定时间内完成任务。</p>
-                    <p>良好的审美，有过设计经历，沟通方便。</p>
+                    <p>有过设计经历，良好的审美，与设计交流沟通方便。</p>
                     <p>喜欢运动，六个月减掉100斤</p>
                     <p>性格容易坚持，喜欢有挑战的工作环境。</p>
                     <p>有外包公司经历，对压力有更好的承受力。</p>
@@ -464,7 +503,7 @@
                 <h1>PORTFOLIO</h1>
                 <ul class="portfolio-list">
                     <li>
-                        <img src="" alt="图片">
+                        <img src="./image/pikachu.jpg" alt="图片">
                         <div class="por-info">
                             <h1>css实现一个皮卡丘</h1>
                             <h3>纯粹使用CSS来实现绘制一只矢量皮卡丘。</h3>
@@ -474,7 +513,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="" alt="图片">
+                        <img src="./image/LOL.jpg" alt="图片">
                         <div class="por-info">
                             <h1>实现英雄联盟（LOL）桌面端官网</h1>
                             <h3>这是一个HTML5桌面端的静态页面制作项目，像素级精确还原LOL官网。</h3>
@@ -484,7 +523,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="" alt="图片">
+                        <img src="./image/163music.jpg" alt="图片">
                         <div class="por-info">
                             <h1>网易云音乐移动端应用</h1>
                             <h3>这是一个非官方的网易云音乐手机端播放页面应用。能够实现曲库列表实时更新、搜索数据请求、歌曲播放、暂停、重新播放等效果。</h3>
@@ -495,7 +534,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="" alt="图片">
+                        <img src="https://i.loli.net/2017/12/09/5a2ba07b1e3b2.png" alt="图片">
                         <div class="por-info">
                             <h1>express实现一个在线便利贴</h1>
                             <h3>纯粹使用CSS来实现绘制一只矢量皮卡丘。</h3>
@@ -557,17 +596,16 @@
                 进阶阶段，18个任务：浏览器渲染机制、运算符优先级、函数声明、 函数表达式、 声明前置、 作用域链、 引用类型、 ES5数组、IIFE 对象拷贝、 字符串/数组/Math/正则、 DOM增删改查、 事件模型(冒泡、捕获、事件代理、取消默认)、 BOM、 闭包、 服务器搭建、 动画、 Ajax(Mock数据)、 跨域、 jQuery DOM操作/属性操作/事件/Ajax、 Promise、日常效果实现
                 高级阶段，10个必修任务和数个可选任务，内容包括：原型、 原型链、 继承、 this、 模块模式、发布订阅模式、Tab组件/轮播组件/曝光组件/事件管理模块封装、BootStrap源码解析、 AMD/CMD/UMD规范、 Require.js/R.js、 Node入门、 NPM使用(开发命令行工具)、 工程化(Gulp、NPM Script)、 WebPack入门、 Less、 Flex布局、 移动端适配、 HTTP头/状态码/缓存处理、 Web安全、 CSS3效果、PostCSS、JQuery源码解析、 JQuery插件编写等 -->
                 <ul class="skill-lists">
-                    <li>HTML/HTML5</li>
-                    <li>CSS/CSS3</li>
+                    <li>HTML5/CSS3</li>
                     <li>PhotoShop</li>
                     <li>Axure</li>
                     <li>JavaScript</li>
                     <li>jQuery</li>
                     <li>AJAX</li>
-                    <li>Amaze UI</li>
+                    <li>HTTP</li>
                     <li>Less/Sass</li>
                     <li>VScode</li>
-                    <li>Sublime</li>
+                    <li>Vue</li>
                     <li>Atom</li>
                     <li>Git/Github客户端</li>
                     <li>AMD模块化</li>
