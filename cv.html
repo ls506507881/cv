@@ -330,12 +330,15 @@
         }
         .skills>.skill-lists>li{
             display: inline-block;
-            background: #61C191;
+            background: #F2F5F3;
             padding: 5px 10px;
             border-radius: 8px;
-            border: 2px solid #252626;
+            border: 2px solid #61C191;
             margin: 8px 10px;
-            color: #F2F5F3;
+            color: #252626;
+        }
+        .skills>.skill-lists>li.no-grasp{
+            border: 2px solid #ddd;
         }
         /* --- */
 
@@ -462,7 +465,7 @@
             <section class="page-info about-me active">
                 <div class="main-info-top">
                     <div class="avatar">
-                        <img src="https://i.loli.net/2017/12/01/5a20de1265e3d.jpg" alt="">
+                        <img src="./image/avatar.jpg" alt="">
                     </div>
                     <div class="info-box">
                         <h2>李帅<small>前端开发</small></h2>
@@ -534,7 +537,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="https://i.loli.net/2017/12/09/5a2ba07b1e3b2.png" alt="图片">
+                        <img src="./image/node.jpg" alt="图片">
                         <div class="por-info">
                             <h1>express实现一个在线便利贴</h1>
                             <h3>纯粹使用CSS来实现绘制一只矢量皮卡丘。</h3>
@@ -606,19 +609,19 @@
                     <li>Less/Sass</li>
                     <li>VScode</li>
                     <li>Vue</li>
-                    <li>Atom</li>
+                    <li>Vim</li>
                     <li>Git/Github客户端</li>
-                    <li>AMD模块化</li>
+                    <li class="no-grasp">AMD模块化</li>
                     <li>HTTP</li>
-                    <li>Gulp</li>
-                    <li>Angular</li>        
+                    <li class="no-grasp">Gulp</li>
+                    <li class="no-grasp">Angular</li>        
                 </ul>
             </section>
             <section class="page-info contact">
                 <h1>CONTACT</h1>
                 <div class="contact-info-wrap">
                     <div class="scan">
-                        <img src="https://i.loli.net/2017/12/02/5a2256539d612.jpg" alt="微信二维码">
+                        <img src="./image/scan.jpg" alt="微信二维码">
                         <p>我的微信二维码</p>
                     </div>
                     <ul class="contact-info">
