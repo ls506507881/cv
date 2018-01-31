@@ -410,13 +410,13 @@ section{
     /* display: inline-block; */
     padding-left: 10px;
     padding-right: 10px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid #252626;
+    /* padding-bottom: 5px; */
+    /* border-bottom: 2px solid #252626; */
 }
 .main-info-content > .info{
     letter-spacing:1px;
     padding-left: 10px;
-    margin-top: 8px;
+    /* margin-top: 8px; */
     margin-bottom: 15px;
 }
 .main-info-content > .info > p{
