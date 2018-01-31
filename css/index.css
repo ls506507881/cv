@@ -35,13 +35,12 @@ article.page>section{
 .page-wrap>aside>h2{
     display: block;
     text-align: center;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     font-size: 30px;
     padding-top: 5px;
     letter-spacing: 1px;
     color: #61C191;
-    font-weight: 600;
     /* color: #4BC8C7; */
     margin-top: 40px;
     margin-bottom: 10px;
@@ -72,7 +71,7 @@ article.page>section{
     font-weight: 400;
 }
 .page-wrap>aside>.navigation-container>.page-nav-ul li a small{
-    margin-left: 5px;
+    margin-left: 2px;
 }
 .page-wrap>aside>.navigation-container>.page-nav-ul li a:hover{
     /* color: #4BC8C7; */
@@ -160,7 +159,7 @@ article.page>section{
 .page>.about-me>.main-info-top{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 .page>.about-me>.main-info-top>.avatar{
     width: 140px;
@@ -177,11 +176,12 @@ article.page>section{
 .page>.about-me>.main-info-top>.info-box>h2{
     font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
     font-size: 34px;
-    font-weight: 900;
+    font-weight: 600;
     line-height: 1.2;
     color: #222;
     letter-spacing: .05em;
     margin-top: 20px;
+    margin-bottom: 15px;
 }
 .page>.about-me>.main-info-top>.info-box>h2>small{
     color: #bbb;
@@ -190,11 +190,11 @@ article.page>section{
 }
 .page>.about-me>.main-info-top>.info-box>h3{
     color: #353944;
-    font-weight: 400;
+    /* font-weight: 400; */
     letter-spacing: 0;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: 6px;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
 }
 .page>.about-me>.main-info-top>.info-box>h4{
     color: #222;
@@ -244,6 +244,7 @@ section{
     display: flex;
     border-radius: 5px;
     background: #fff;
+    position: relative;
 }
 .portfolio>.portfolio-list li::after{
     content: "";
@@ -322,6 +323,7 @@ section{
     margin-bottom: 30px;
 }
 .skills>.skills-content{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     background: #fefefe;
     border-radius: 5px;
     display: flex;
@@ -360,12 +362,13 @@ section{
 /* --- */
 
 
-
-.contact>h1{
+.page-info h1{
     font-size: 38px;
+    font-weight: 500;
+}
+.contact>h1{
     display: block;
     text-align: center;
-    font-weight: 600;
     margin-top: 50px;
     margin-bottom: 60px;
 }
@@ -392,7 +395,7 @@ section{
     vertical-align: middle;
     font-size: 24px;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .contact>.contact-info-wrap>.contact-info li svg{
     width: 60px;
@@ -403,43 +406,38 @@ section{
 /* 个人 */
 .main-info-content{
     max-width: 800px;
-    margin: 0 auto 30px;
-
+    margin: 30px auto 0;
 }
-.main-info-content > .title{
-    /* display: inline-block; */
-    padding-left: 10px;
-    padding-right: 10px;
+.main-info-content h3{
+    display: inline-block;
+    background: #252626;
+    color: #fefefe;
+    padding: 0 8px;
+    border-radius: 3px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     /* padding-bottom: 5px; */
     /* border-bottom: 2px solid #252626; */
 }
 .main-info-content > .info{
     letter-spacing:1px;
-    padding-left: 10px;
-    /* margin-top: 8px; */
-    margin-bottom: 15px;
+    /* padding-left: 15px; */
+    margin-top: 5px;
+    /* margin-bottom: 15px; */
 }
 .main-info-content > .info > p{
-    font-size: 16px;
+    /* font-size: 16px; */
 }
 .main-info-content > .info h4{
-    font-weight: 600;
-    color: #555;
-    font-size: 17px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #444;
+    font-size: 16px;
     margin-top: 4px;
-    line-height: 26px;
+    /* line-height: 26px; */
 }
 .main-info-content > .info > p{
-    line-height: 1.6em;
-    font-weight: 500;
-}
-.main-info-content>h3{
-    color: #333;
-    font-size: 20px;
-    line-height: 30px;
-    margin-bottom: 8px;
-}
-.main-info-content strong{
-    color: #61C191;
-    font-size: 1.1em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
 }

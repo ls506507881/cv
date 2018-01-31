@@ -7,10 +7,11 @@ html,
 body {
     font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; */
-    line-height: 1.4;
+    /* line-height: 1.4; */
     font-size: 16px;
     color: #585858;
     background: #F2F5F3;
+    /* font: 14px/1.7 Helvetica, sans-serif; */
 }
 
 ul,
@@ -26,3 +27,13 @@ a{ text-decoration: none;}
     fill: currentColor;
     overflow: hidden;
 }
+
+ /* 解决边距合并 */
+ .no-collapse::before{
+    content: "";
+    display: table;
+ }
+ .no-collapse::after{
+    content: "";
+    display: table;
+ }
