@@ -4,7 +4,7 @@
 - 山东电子职业技术学院（网站开发技术）
 - 工作年限：2年
 - 技术博客：http://www.jianshu.com/u/ed85c156649b
-- 简历网站：https://ls506507881.github.io/cv/index.html
+- 简历网站：https://ls506507881.github.io/MyResume/index.html
 
 ### 求职意向
 ---
