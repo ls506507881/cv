@@ -181,7 +181,7 @@ article.page>section{
     color: #222;
     letter-spacing: .05em;
     margin-top: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 .page>.about-me>.main-info-top>.info-box>h2>small{
     color: #bbb;
@@ -193,7 +193,8 @@ article.page>section{
     /* font-weight: 400; */
     letter-spacing: 0;
     font-size: 19px;
-    margin-top: 6px;
+    margin-bottom: 5px;
+    /* padding-top: 6px; */
     /* margin-bottom: 6px; */
 }
 .page>.about-me>.main-info-top>.info-box>h4{
@@ -330,16 +331,22 @@ section{
     max-width: 860px;
     margin: 0 auto;
     justify-content: space-between;
-    /* background: rgba(255, 255, 255, .5); */
-    margin-bottom: 50px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, .1);
 }
 .skills>.skills-content>.skills-content-info{
-    margin: 20px 40px 20px 40px;
+    margin: 20px 40px 20px 55px;
     /* max-width: 380px; */
 }
-.skills>.skills-content>.skills-content-info>li{
-    margin-bottom: 20px;
+.skills-content-info>li{
+    margin-bottom: 12px;
+    font-weight: 500;
+    position: relative;
+}
+.skills-content-info>li::before{
+    content: "●";
+    position: absolute;
+    left: -18px;
+
 }
 .skills>.skill-lists{
     display: flex;
