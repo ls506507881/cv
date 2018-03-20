@@ -4,7 +4,7 @@
 - 山东电子职业技术学院（网站开发技术）
 - 工作年限：2年
 - 技术博客：http://www.jianshu.com/u/ed85c156649b
-- 简历网站：https://ls506507881.github.io/MyResume/index.html
+- 简历网站：https://ls506507881.github.io/MyResume
 
 ### 求职意向
 ---
@@ -33,10 +33,10 @@
 
 ### 作品（项目）
 ---
-#### vue实现一个备忘录
-使用vue实现一个todolist网站，提供了用户注册，登录，使用云服务器存储数据，并可以添加、删除备忘录记事
-功能：支持用户注册、登录账号，新增、删除便利贴
-部署：LeanCloud    
+#### vue实现一个备忘录  
+使用vue实现一个在线todolist网站，提供了用户注册，登录，使用云服务器存储数据，并可以添加、删除备忘录记事  
+功能：支持用户注册、登录账号，新增、删除便利贴  
+部署：LeanCloud      
 技术栈：vue.js + leancloud + webpack  
 难点：
 
