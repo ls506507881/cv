@@ -286,7 +286,7 @@ section{
     display: flex;
     position: absolute;
     bottom: 20px;
-    left: 20px;
+    left: 25px;
 }
 .portfolio .por-info .buttons a{
     display: inline-block;
