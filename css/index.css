@@ -253,6 +253,7 @@ section{
     clear: both;
 }
 .portfolio>.portfolio-list li>img{
+    min-width: 250px;
     width: 250px;
     height: 300px;
     display: inline-block;
